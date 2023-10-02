@@ -1,0 +1,206 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+    gap: 20px;
+}
+.custom-select{
+    margin-right: 50px;
+}
+
+/* Add this CSS to your stylesheet */
+.ant-select-item {
+    margin-bottom: 1px; /* Adjust the value as needed for your specific spacing preference */
+}
+
+.custom-select .ant-select-selection-item {
+    color: #5e8cda; /* Adjust text color for better contrast */
+  }
+  
+  .select2 {
+    padding: 8px 8px 8px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5e8cda;
+    color: white;
+    font-size: 16px;
+
+  }
+
+  .select2 option {
+    background-color: white;
+    color: black; /* Set text color */
+  }
+  
+
+.option{
+    display: flex;
+    justify-content: space-between;
+}
+  
+
+.icons{
+    display: flex;
+    margin-left: 80px;
+    gap: 10px;
+    color: gray;
+}
+
+.icons svg {
+    border: none; /* Adjust the border color and width as needed */
+    border-radius: 10px; /* This will round the corners */
+    padding: 4px; 
+    background-color: white;
+  }
+
+  
+.right-box {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-top: 40px;
+    margin-right: 20px; 
+  }
+  
+.candidate{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    flex-direction: row;
+}
+.right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.right span {
+    margin: 0 5px;
+}
+
+.right .disqualified {
+    margin-right: 20px;
+}
+
+.task-number, .disqualified-number {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #f7f8fc;
+    text-align: center;
+    line-height: 30px;
+    color: #61618a;
+    font-size: smaller;
+}
+
+.right span.separator {
+    color: #e6e6e7;
+}
+
+
+.left{
+    margin-left: 20px;
+    display: flex;
+    gap: 40px;
+    color: #1d4ed8;
+}
+
+.people{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 0.3vh;
+    align-items: center;
+    min-height: 180px;
+    flex:3;
+}
+.checkbox{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 3;
+}
+.infos-right {
+    display: flex;
+    gap: 10px; /* Adjust the gap between the spans */
+    align-items: center;
+    margin-left: 500px; /* Push the element to the right */
+}
+.ldiv{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #e9eefd;
+    color: #89a3ea;
+    border-radius: 10px;
+    padding: 5px 10px; /* Adjust the padding as needed */
+    box-sizing: border-box;
+}
+.rdiv{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #e9eefd;
+    color: #89a3ea;
+    border-radius: 10px;
+    padding: 5px 10px; /* Adjust the padding as needed */
+    box-sizing: border-box;
+}
+
+.info-licons, .info-ricons{
+    border-radius: 50%;
+    background-color: #eef1fa;
+    color: #97ade1;
+    margin-right: 10px;
+}
+
+.more-details{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 25px;
+}
+
+.extra-infos {
+    border-radius: 10px;
+    background-color: #f3fafc;
+    color: #037092;
+    padding: 5px 10px; /* Adjust the padding as needed */
+    box-sizing: border-box; /* Include padding in total width and height */
+}
+
+
+.name{
+    margin-left: 20px;
+    margin-right: 30px;
+    background-color: #edf4ff;
+    color: #d0e1ff;
+    display: inline-block;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: xx-large;
+}

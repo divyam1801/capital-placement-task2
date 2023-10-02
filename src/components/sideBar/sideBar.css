@@ -1,0 +1,69 @@
+.sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5vw;
+    height: 100vh;
+    top: 0;
+    box-sizing: border-box;
+    box-shadow: 0.5px 0px 0.5px -0.5px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+
+
+.icon {
+    margin: 2vh 0; 
+    font-size: 32px;
+    opacity: 0.6;
+}
+
+.icon1{
+    color: #e2e2e3;
+    background-color: #e2e2e3;
+    font-size: 32px;
+    margin: 4vh 0;
+    border-radius: 50%;
+}
+
+.icon2{
+    margin-top: 140px;
+    font-size: 32px;
+    opacity: 0.6;
+}
+
+.icon3{
+    color: #d1e0fc;
+    background-color: #d1e0fc;
+    margin: 4vh 0;
+    border-radius: 50%;
+    font-size: 32px;
+}
+
+.icon4 {
+    margin: 2vh 0; 
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.icon.active, .icon4.active {
+    color: #829de8;
+    border-radius: 50%;
+    background-color: #edf1fd;
+}
+
+.icon1.active{
+    color: #829de8;
+    background-color: #829de8;
+    border-radius: 50%;
+}
+
+.icon2.active{
+    color: #829de8;
+    border-radius: 50%;
+    background-color: #edf1fd;
+}
+.icon3.active{
+    color: #829de8;
+    background-color: #829de8;
+}

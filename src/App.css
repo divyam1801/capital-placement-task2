@@ -1,0 +1,28 @@
+body{
+    background-color: #f8f9fd;
+    margin: 0px;
+}
+
+.app-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px; /* Adjust as needed */
+  }
+  
+  .content {
+    flex-grow: 1; /* This will make the content area fill the remaining space */
+    padding: 20px; /* Adjust as needed */
+    margin-left: 7vw;
+    display: flex;
+    flex-direction: column;
+    color: black;
+  } 
+
+  .content span:first-child{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #5e81e2;
+  }
